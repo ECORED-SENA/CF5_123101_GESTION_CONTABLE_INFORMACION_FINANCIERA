@@ -70,7 +70,7 @@
                 img(src="@/assets/curso/tema1/7.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
               h4 Diagrama flujo de caja
-              p Esquema gráfico que representa el capital invertido (el valor final en un tiempo determinado y tasa acordada.) 
+              p Esquema gráfico que representa el capital invertido (el valor final en un tiempo determinado y tasa acordada). 
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
@@ -234,7 +234,7 @@
               p.mb-0 <b>Pago:</b> es el pago efectuado en cada período.
             li.mb-3.d-flex
               i.fas.fa-chevron-right.bg-color-17
-              p.mb-0 <b>Vf:</b> Valor futuro o suma total de lo que se desea obtener después de efectuar el último pago.
+              p.mb-0 <b>Vf:</b> valor futuro o suma total de lo que se desea obtener después de efectuar el último pago.
             li.mb-3.d-flex
               i.fas.fa-chevron-right.bg-color-17
               p.mb-0 <b>Tipo:</b> es un valor lógico. Se registra “0” para una tasa vencida y “1” para tasa anticipada.
@@ -279,7 +279,7 @@
               p.mb-0 <b>Va:</b> es el valor actual o suma total del valor de una serie de pagos.
             li.mb-3.d-flex
               i.fas.fa-chevron-right.bg-color-17
-              p.mb-0 <b>Vf:</b> Valor futuro o suma total de lo que se desea obtener después de efectuar el último pago.
+              p.mb-0 <b>Vf:</b> valor futuro o suma total de lo que se desea obtener después de efectuar el último pago.
             li.mb-3.d-flex
               i.fas.fa-chevron-right.bg-color-17
               p.mb-0 <b>Tipo:</b> es un valor lógico. Se registra “0” para una tasa vencida y “1” para tasa anticipada.
@@ -293,7 +293,7 @@
           .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p <b>Ejemplo 4:</b> Sofía realiza un préstamo de $2.000.000, Al final del período paga $3.443.143, la tasa cobrada es del 2,5% mensual. Hallar el tiempo del préstamo.  Teniendo en cuenta la fórmula principal, se realiza el proceso para despejarla; por ende, se utilizará la siguiente:
+            p <b>Ejemplo 4:</b> Sofía realiza un préstamo de $2.000.000, al final del período paga $3.443.143, la tasa cobrada es del 2,5% mensual. Hallar el tiempo del préstamo.  Teniendo en cuenta la fórmula principal, se realiza el proceso para despejarla; por ende, se utilizará la siguiente:
         .row.justify-content-center.mb-3
           .col-lg-9
             figure
@@ -324,7 +324,7 @@
               p.mb-0 <b>Va:</b> es el valor actual o suma total del valor de una serie de pagos.
             li.mb-3.d-flex
               i.fas.fa-chevron-right.bg-color-17
-              p.mb-0 <b>Vf:</b> Valor futuro o suma total de lo que se desea obtener después de efectuar el último pago.
+              p.mb-0 <b>Vf:</b> valor futuro o suma total de lo que se desea obtener después de efectuar el último pago.
             li.mb-3.d-flex
               i.fas.fa-chevron-right.bg-color-17
               p.mb-0 <b>Tipo:</b> es un valor lógico. Se registra “0” para una tasa vencida y “1” para tasa anticipada.
@@ -466,7 +466,7 @@
           div(numero="3" titulo="Conversión de Tasa Nominal vencida a Efectiva") 
             figure.mt-3.mb-3
               img(src="@/assets/curso/tema1/33-2.svg", data-aos="zoom-in")
-            p <b>Ejemplo:</b> Se tiene una tasa del 24% nominal anual mes vencido, hallar la tasa efectiva anual.
+            p <b>Ejemplo:</b> se tiene una tasa del 24% nominal anual mes vencido, hallar la tasa efectiva anual.
             h5 i<sub>e</sub> = (1+ 0,24/12 ) (12/1)  -1 
             h5 i<sub>e</sub> = 26,82% Efectiva Anual (EA) 
           div(numero="4" titulo="Conversión de tasa nominal anticipada a efectiva") 
@@ -720,7 +720,7 @@
                   p.mb-0 <b>Nper:</b> es el número de períodos.
                 li.mb-3.d-flex
                   i.fas.fa-chevron-right.bg-color-17
-                  p.mb-0 <b>Va:</b> Valor actual( valor del préstamo).
+                  p.mb-0 <b>Va:</b> Valor actual (valor del préstamo).
                 li.mb-3.d-flex
                   i.fas.fa-chevron-right.bg-color-17
                   p.mb-0 <b>Vf:</b>  Valor futuro.
@@ -999,7 +999,7 @@
     
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nHjl83QvSUw?si=PYOSxqLdAk88V5nb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .bg-full-width.bg-color-2
       .px-4.px-md-5.py-4
