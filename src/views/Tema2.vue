@@ -42,7 +42,7 @@
               li.d-flex.mb-3 
                 .lista-ol--cuadro__vineta
                   span 4
-                | La definición de valor razonable se centra en los activos y pasivos porque son un objeto principal de la medición en contabilidad. Además, esta NIIF se aplicará a instrumentos de patrimonio propios de una entidad, medidos a valor razonable.  (Consejo Técnico de la Contaduría Pública (CTCP) (2020, 5 de noviembre). Norma Internacional de Información Financiera 13 Medición del Valor Razonable.)  
+                | La definición de valor razonable se centra en los activos y pasivos porque son un objeto principal de la medición en contabilidad. Además, esta NIIF se aplicará a instrumentos de patrimonio propios de una entidad, medidos a valor razonable.  Consejo Técnico de la Contaduría Pública (CTCP) (2020, 5 de noviembre). Norma Internacional de Información Financiera 13 Medición del Valor Razonable.
         
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
@@ -73,7 +73,7 @@
               li.d-flex.mb-3 
                 .lista-ol--cuadro__vineta
                   span 3
-                | La información a revelar requerida por esta NIIF no se requiere para los siguientes elementos: (a) activos del plan medidos a valor razonable de acuerdo con la NIC 19 Beneficios a los Empleados; (b) inversiones en un plan de beneficios por retiro medidos a valor razonable de acuerdo con la NIC 26 Contabilización e Información Financiera sobre Planes de beneficio por Retiro; y (c) activos para los que el importe recuperable es el valor razonable menos los costos de disposición de acuerdo con la NIC 36. 
+                | La información a revelar requerida por esta NIIF no se requiere para los siguientes elementos: (a) activos del plan medidos a valor razonable de acuerdo con la NIC 19 beneficios a los empleados; (b) inversiones en un plan de beneficios por retiro medidos a valor razonable de acuerdo con la NIC 26 contabilización e información financiera sobre planes de beneficio por retiro; y (c) activos para los que el importe recuperable es el valor razonable menos los costos de disposición de acuerdo con la NIC 36. 
               li.d-flex.mb-3 
                 .lista-ol--cuadro__vineta
                   span 4
@@ -214,7 +214,7 @@
           img(src="@/assets/curso/tema2/8.svg", data-aos="zoom-in")
               
       .col-lg-6
-        P Esta Norma proporciona los criterios de aplicación del valor razonable que se utilizan en el reconocimiento y medición de hechos económicos.  Los invito a ampliar la información revisando la Norma internacional de Contabilidad número trece (NIIF 13) - “Medición del valor razonable” en el siguiente enlace:
+        P Esta norma proporciona los criterios de aplicación del valor razonable que se utilizan en el reconocimiento y medición de hechos económicos.  Los invito a ampliar la información revisando la Norma internacional de Contabilidad número trece (NIIF 13) - “Medición del valor razonable” en el siguiente enlace:
         a.anexo.mb-4.mb-lg-0(href="https://www.ctcp.gov.co/proyectos/contabilidad-e-informacion-financiera/documentos-organismos-internacionales/compilacion-marcos-tecnicos-de-informacion-financi/1534363802-6328" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")

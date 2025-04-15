@@ -1027,9 +1027,9 @@
                   img(src="@/assets/curso/tema1/45-1.svg", data-aos="zoom-in")
             .row
               .col-lg-6.mb-3.mb-lg-0
-                p.mb-0 P: Inversión inicial
-                p.mb-0 FNE: Flujos netos de efectivo
-                p TO: Tasa de oportunidad del inversionista.
+                p.mb-0 P: inversión inicial
+                p.mb-0 FNE: flujos netos de efectivo
+                p TO: tasa de oportunidad del inversionista.
               .col-lg-6.mb-3.mb-lg-0
                 p.mb-0 Interpretación:
                 p.mb-0 VPN < cero “0” = No es viable (pérdida)
@@ -1045,7 +1045,7 @@
               .col-lg-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
               .col-lg
-                p <b>Ejemplo:</b>  Se desea realizar una inversión de $12.000.000, durante 4 años, a una tasa de descuento del 15% anual. Los beneficios (flujos) recibidos por cada año son los siguientes:
+                p <b>Ejemplo:</b>  se desea realizar una inversión de $12.000.000, durante 4 años, a una tasa de descuento del 15% anual. Los beneficios (flujos) recibidos por cada año son los siguientes:
             .row.justify-content-center.mb-3
               .col-lg-9
                 .titulo-sexto.color-acento-contenido
@@ -1074,7 +1074,7 @@
                         td.text-center $ 5.000.000
 
             .cajon.color-acento-contenido.p-4.mb-4
-              p.mb-0 <b>NOTA:</b> Determinar la viabilidad del proyecto, aplicando la fórmula de VPN o VNA.
+              p.mb-0 <b>NOTA:</b> determinar la viabilidad del proyecto, aplicando la fórmula de VPN o VNA.
             .row.justify-content-center.mb-3
               .col-lg-10
                 figure
@@ -1272,7 +1272,7 @@
                       td.text-center.text-bold 18 %
       .col-lg-6.mb-3.mb-lg-0
         P.mb-5 De acuerdo con lo anterior, se observa que el proyecto es viable, teniendo en cuenta que se recupera la inversión, además de generar una ganancia.  La TIR (184%) es mayor que la tasa de descuento (14%).
-        P.mb-5 (P28) Para ampliar esta información, usted deberá ingresar a la biblioteca del Servicio Nacional de Aprendizaje (SENA), donde encuentra libros de apoyo.  A continuación se relaciona el enlace sugerido para fortalecer la temática propuesta:
+        P.mb-5 Para ampliar esta información, usted deberá ingresar a la biblioteca del Servicio Nacional de Aprendizaje (SENA), donde encuentra libros de apoyo.  A continuación se relaciona el enlace sugerido para fortalecer la temática propuesta:
         a.anexo.mb-4.mb-lg-0(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/130247?page=279" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
