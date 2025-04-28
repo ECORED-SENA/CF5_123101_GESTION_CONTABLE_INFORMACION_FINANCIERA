@@ -427,15 +427,16 @@
         h3.titulo-con-imagen__texto Equivalencia de tasas
 
     .row.mb-5
-      .col-lg-4.order-2
+      .col-lg-3.order-2
         figure
           img(src="@/assets/curso/tema1/31.png", data-aos="zoom-in")
-      .col-lg-8.order-1.mb-3.mb-lg-0
+      .col-lg-9.order-1.mb-3.mb-lg-0
         p(data-aos="fade-left") Hace referencia a la igualdad que debe existir entre el periodo de capitalización y el periodo de tiempo; para ejemplarizar, si la tasa se presenta de forma trimestral, el periodo debe darse de igual manera. Por lo tanto, de acuerdo con la operación se realizará la conversión de tasas con el fin de lograr su equivalencia (Vidaurri, 2017).
     
         .cajon.color-secundario.bg-color-1.p-4.mb-4
-          p.mb-0 Para profundizar en la temática, recuerde explorar en la biblioteca del Servicio Nacional de Aprendizaje (SENA), donde encuentra libros de apoyo. A continuación se relaciona el libro Matemáticas Financieras, que fue utilizado para la definición de los conceptos anteriormente expuestos, para su revisión:
-        a.anexo.mb-4.mb-lg-0(href="http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=3788" target="_blank")
+          p.mb-0 Para profundizar en la temática, recuerde explorar en la biblioteca del Servicio Nacional de Aprendizaje (SENA), donde encuentra libros de apoyo. 
+          //A continuación se relaciona el libro Matemáticas Financieras, que fue utilizado para la definición de los conceptos anteriormente expuestos, para su revisión:
+        //a.anexo.mb-4.mb-lg-0(href="http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=3788" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -1271,11 +1272,12 @@
                       td.text-center.text-bold  TIR   
                       td.text-center.text-bold 18 %
       .col-lg-6.mb-3.mb-lg-0
-        P.mb-5 De acuerdo con lo anterior, se observa que el proyecto es viable, teniendo en cuenta que se recupera la inversión, además de generar una ganancia.  La TIR (184%) es mayor que la tasa de descuento (14%).
-        P.mb-5 Para ampliar esta información, usted deberá ingresar a la biblioteca del Servicio Nacional de Aprendizaje (SENA), donde encuentra libros de apoyo.  A continuación se relaciona el enlace sugerido para fortalecer la temática propuesta:
-        a.anexo.mb-4.mb-lg-0(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/130247?page=279" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+        P.mb-4 De acuerdo con lo anterior, se observa que el proyecto es viable, teniendo en cuenta que se recupera la inversión, además de generar una ganancia.  La TIR (184%) es mayor que la tasa de descuento (14%).
+        P.mb-5 Para ampliar esta información, usted deberá ingresar a la biblioteca del Servicio Nacional de Aprendizaje (SENA), donde encuentra libros de apoyo.  
+        //A continuación se relaciona el enlace sugerido para fortalecer la temática propuesta:
+        //a.anexo.mb-4.mb-lg-0(href="https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/130247?page=279" target="_blank")
+        //  .anexo__icono
+        //    img(src="@/assets/template/icono-link.svg")
           .anexo__texto
             p <b>Enlace web.</b> Tello, L. B. (2019). Herramientas financieras y valoración de activos y pasivos financieros bajo NIIF. Santiago de Cali: Editorial Universidad Icesi.  
           

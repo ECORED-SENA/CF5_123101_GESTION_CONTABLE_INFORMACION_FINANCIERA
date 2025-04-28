@@ -126,7 +126,7 @@ export default {
         'Meza, J. J. (2017). Matemáticas financieras aplicadas (6.a ed.). Ecoe Ediciones.',
       tipo: 'Capítulo 1-2-3-4 y 7',
       link:
-        'https://www.ecoeediciones.com/wp-content/uploads/2017/06/Matematicas-Financieras-Aplicadas-6ta-Edici%C3%B3n.pdf',
+        'https://books.google.hn/books?id=rqIwDgAAQBAJ&printsec=frontcover#v=onepage&q&f=false',
     },
     {
       tema: 'Tema 2',
@@ -134,7 +134,7 @@ export default {
         'Tello, L. B. (2019). Herramientas financieras y valoración de activos y pasivos financieros bajo NIIF. Santiago de Cali: Editorial Universidad Icesi. ',
       tipo: 'Capítulo 1-2-3-4-7 y 8',
       link:
-        'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/130247?page=279',
+        'https://repository.icesi.edu.co/server/api/core/bitstreams/33aa3514-d6e6-4fd5-a523-adf3e53b725b/content',
     },
   ],
   glosario: [
