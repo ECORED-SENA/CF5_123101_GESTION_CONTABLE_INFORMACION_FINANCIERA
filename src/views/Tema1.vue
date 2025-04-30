@@ -299,7 +299,7 @@
             figure
               img(src="@/assets/curso/tema1/25.svg", data-aos="zoom-in")
         .bg-color-16.p-4.tarjeta.mb-3(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") <b>Respuesta:</b>  El tiempo del préstamo es de 22 meses.
+          p.mb-0(data-aos="fade-left") <b>Respuesta:</b>  el tiempo del préstamo es de 22 meses.
 
     div.tarjeta.bg-color-16.p-4.mb-5
       .row.justify-content-center.align-items-center
