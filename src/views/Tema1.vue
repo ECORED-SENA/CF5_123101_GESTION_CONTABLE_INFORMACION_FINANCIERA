@@ -106,10 +106,13 @@
         .bg-color-16.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") Para desarrollar el ejercicio, es importante tener en cuenta los datos suministrados; por ello, no olvide analizar la información y observar que se tiene la necesidad de hallar el valor futuro, mediante el interés simple. Recordemos que este no capitaliza como sucede en el interés compuesto.
         p La fórmula que debe usarse es:
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 1.
+          span Cálculo del valor futuro con interés simple
         .row.justify-content-center.mb-3
           .col-lg-9
             figure
-              img(src="@/assets/curso/tema1/12.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/12.svg", data-aos="zoom-in", alt="Diagrama con fórmula de valor futuro usando interés simple, que incluye la expresión matemática VF=VA(1+n*i), un ejemplo numérico con valor actual de $12.000.000, tasa del 9% anual y un periodo de 3 años, y una línea de tiempo que representa el crecimiento hasta un valor futuro de $15.240.000.")
         .bg-color-16.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Carolina con una inversión inicial de $12.000.000 recibirá $15.240.000, dentro de tres años aplicando interés simple.
     
@@ -126,10 +129,13 @@
         .bg-color-1.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") De acuerdo con el análisis, se observa que se debe determinar el valor presente o actual de la inversión realizada, utilizando el tipo de interés compuesto; por lo tanto, se usará la siguiente fórmula: 
         p La fórmula que debe usarse es:
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 2.
+          span Cálculo del valor actual con interés simple
         .row.justify-content-center.mb-3
           .col-lg-9
             figure
-              img(src="@/assets/curso/tema1/15.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/15.svg", data-aos="zoom-in", alt="Fórmula para calcular el valor actual con interés simple, representada como VA=VF/(1+i*n), acompañada de un ejemplo con un valor futuro de $35.000.000, tasa de interés del 2,5% y plazo de 10 años, que da como resultado un valor actual de $28.000.000.")
         .bg-color-1.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Respuesta: Para obtener un monto de $35.000.000 durante 10 meses a la tasa del 2,5% de invertir $28.000.000. 
   
@@ -152,10 +158,14 @@
             p <b>Ejemplo 1:</b> Carolina invierte hoy $12.000.000 en una cuenta que paga el 9% compuesto anual, ¿qué cantidad podrá retirar dentro de 3 años?
         .bg-color-8.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") El enunciado anterior refleja la necesidad de hallar el valor futuro, teniendo en cuenta que se conoce el valor inicial de la inversión y se desea saber el valor final dentro de 3 años. Recuerde que la tasa de interés se manejará en decimales para efectos de su cálculo.
+
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 3.
+          span Cálculo del valor futuro con interés compuesto
         .row.justify-content-center.mb-3
           .col-lg-9
             figure
-              img(src="@/assets/curso/tema1/16.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/16.svg", data-aos="zoom-in", alt="Diagrama con fórmula de valor futuro usando interés compuesto, representada como VF=VA(1+i)n, con un ejemplo que parte de $12.000.000, una tasa del 9% anual y un periodo de 3 años, resultando en un valor futuro de $15.540.348, ilustrado con línea de tiempo.")
         .bg-color-8.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Carolina con una inversión inicial de $12.000.000 recibirá $15.540.348, dentro de tres años aplicando interés compuesto.
 
@@ -165,7 +175,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-6.mb-3.mb-lg-0
           .titulo-sexto.color-acento-contenido
-            h5 Figura 1.
+            h5 Figura 4.
             span Cálculo del valor futuro (VF) en función financiera de Exce
           figure
             img(src="@/assets/curso/tema1/18.png", data-aos="zoom-in", alt=" Ventana de argumentos de función en Excel para calcular el valor futuro (VF) de una inversión, con campos para ingresar tasa de interés, número de periodos (Nper), pago periódico, valor actual (Va) y tipo de vencimiento. Incluye una breve descripción de cada parámetro.")
@@ -202,10 +212,13 @@
             p <b>Ejemplo 2:</b> Andrés recibirá en 10 meses $35.000.000, correspondientes a una inversión realizada. Si la tasa de interés que le están pagando es del 2,5% mensual, ¿Cuál es el valor inicial de la inversión, aplicando el tipo de interés compuesto? 
         .bg-color-1.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") De acuerdo con el análisis, se observa que se debe determinar el valor presente o actual de la inversión realizada, utilizando el tipo de interés compuesto; por lo tanto, se usará la siguiente fórmula: 
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 5.
+          span Valor actual con fórmula de interés compuesto
         .row.justify-content-center.mb-3
           .col-lg-9
             figure
-              img(src="@/assets/curso/tema1/19.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/19.svg", data-aos="zoom-in", alt="Fórmula del valor actual bajo interés compuesto representada como VA=VF/(1+i)^n,  aplicada a un valor futuro de $35.000.000 con una tasa del 2,5% durante 10 años, obteniendo un valor actual de $27.341.944,06.")
         .bg-color-1.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") <b>Respuesta:</b>  para obtener un monto de $35.000.000 durante 10 meses, a la tasa del 2,5%, debe invertir $27.341.944,06. 
     
@@ -215,7 +228,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-6.mb-3.mb-lg-0
           .titulo-sexto.color-acento-contenido
-            h5 Figura 2.
+            h5 Figura 6.
             span  Cálculo del valor actual (VA) en función financiera de Excel
           figure
             img(src="@/assets/curso/tema1/21.png", data-aos="zoom-in", alt="Ventana de argumentos de función en Excel para calcular el valor actual (VA) de una inversión, con campos para ingresar tasa, número de periodos (Nper), pago periódico, valor futuro (Vf) y tipo de vencimiento")
@@ -248,11 +261,14 @@
           .col-lg-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p <b>Ejemplo 3:</b> María realiza una inversión por valor de $ 750.000, por un periodo de 3 años. Al finalizar el tiempo le entregan $ 868.219. ¿Cuál es la tasa de interés compuesto aplicada? Una vez despejada la fórmula principal, se utilizará la siguiente: 
+            p <b>Ejemplo 3:</b> María realiza una inversión por valor de $750.000, por un periodo de 3 años. Al finalizar el tiempo le entregan $868.219. ¿Cuál es la tasa de interés compuesto aplicada? Una vez despejada la fórmula principal, se utilizará la siguiente: 
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 7.
+          span Fórmula, solución analítica ejemplo 3
         .row.justify-content-center.mb-3
           .col-lg-9
             figure
-              img(src="@/assets/curso/tema1/22.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/22.svg", data-aos="zoom-in", alt="Fórmula de la tasa de interés compuesta aplicada en el ejemplo 3, representada como i = (868.219 / 750.000)^(1 / 3) - 1, donde 868.219 es el valor final recibido, 750.000 el valor invertido inicialmente, y 3 el número de años de la inversión.")
         .bg-color-10.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") <b>Respuesta:</b>  la tasa aplicada en la inversión es del 5% anual.
     
@@ -260,7 +276,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-6.mb-3.mb-lg-0
           .titulo-sexto.color-acento-contenido
-            h5 Figura 3.
+            h5 Figura 8.
             span  Cálculo de la tasa de interés en función financiera de Excel
           figure
             img(src="@/assets/curso/tema1/24.png", data-aos="zoom-in", alt="Ventana de argumentos de función en Excel para calcular la tasa de interés por periodo de un préstamo o inversión, con campos para ingresar número de periodos (Nper), pago periódico, valor actual (Va), valor futuro (Vf) y tipo de vencimiento.)")
@@ -294,10 +310,13 @@
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-lg
             p <b>Ejemplo 4:</b> Sofía realiza un préstamo de $2.000.000, al final del período paga $3.443.143, la tasa cobrada es del 2,5% mensual. Hallar el tiempo del préstamo.  Teniendo en cuenta la fórmula principal, se realiza el proceso para despejarla; por ende, se utilizará la siguiente:
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 9.
+          span Cálculo del tiempo en operaciones financieras con logaritmos
         .row.justify-content-center.mb-3
           .col-lg-9
             figure
-              img(src="@/assets/curso/tema1/25.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/25.svg", data-aos="zoom-in", alt="Ejemplo resuelto que muestra cómo calcular el tiempo de un préstamo usando logaritmos, con fórmula despejada n=log(VF/VA)log(1+i) valores aplicados a un préstamo de $2.000.000 con tasa del 2,5% mensual y valor futuro de $3.443.143, resultando en un plazo de 22 meses.")
         .bg-color-16.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") <b>Respuesta:</b>  el tiempo del préstamo es de 22 meses.
 
@@ -305,7 +324,7 @@
       .row.justify-content-center.align-items-center
         .col-lg-6.mb-3.mb-lg-0
           .titulo-sexto.color-acento-contenido
-            h5 Figura 4.
+            h5 Figura 10.
             span Cálculo del número de periodos (Nper) en función financiera de Excel
           figure
             img(src="@/assets/curso/tema1/27.png", data-aos="zoom-in", alt="Ventana de argumentos de función en Excel para calcular el número de pagos de una inversión, con campos para ingresar tasa de interés, pago periódico, valor actual (Va), valor futuro (Vf) y tipo de vencimiento.")
@@ -452,31 +471,44 @@
         //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
         //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
         LineaTiempoD.color-secundario
-          div(numero="1" titulo="Conversión de Tasa Efectiva a Tasa Efectiva en periodos diferentes") 
+          div(numero="1" titulo="Conversión de tasa efectiva a tasa efectiva en periodos diferentes") 
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 11.
+              span Conversión de tasa efectiva entre periodos distintos
             figure.mt-3.mb-3
-              img(src="@/assets/curso/tema1/33.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/33.svg", data-aos="zoom-in", alt="Fórmula para convertir una tasa efectiva entre distintos periodos, expresada como ie=((1+i)(n1/n2)-1), acompañada de la definición de variables: tasa efectiva deseada, tasa conocida, y periodos correspondientes de ambas tasas.")
             p <b>Ejemplo:</b> convertir el 8% Efectivo Mensual (EF) a Efectivo Semestral (ES).
             h5 i<sub>e</sub> = ((1+0,08) (12/2)) – 1
             h5 i<sub>e</sub> = 58, 69% Efectivo semestral (ES)
-          div(numero="2" titulo="Conversión de Tasa Efectiva a Tasa Efectiva en periodos diferentes") 
+          div(numero="2" titulo="Conversión de tasa efectiva a tasa nominal") 
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 12.
+              span Conversión de tasa efectiva a nominal
             figure.mt-3.mb-3
-              img(src="@/assets/curso/tema1/33-1.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/33-1.svg", data-aos="zoom-in", alt="Fórmula de conversión de tasa efectiva a nominal, representada como j = ((1 + iₑ)^(n1 / n2) - 1) x n, donde j es la tasa nominal, iₑ es la tasa efectiva conocida, n1 es el periodo de la tasa conocida, n2 el periodo al que se quiere convertir, y n el número de periodos en el año.")
             p <b>Ejemplo:</b> se tiene una tasa del 24% Efectiva Anual (EA), realizar la conversión a nominal mensual equivalente.
             h5 j = ((1+ 0,24 ) (1/12)   -1 ) * 12
             h5 j = 21,71% Nominal Mensual (NM)
-          div(numero="3" titulo="Conversión de Tasa Nominal vencida a Efectiva") 
+          div(numero="3" titulo="Conversión de tasa nominal vencida a tasa efectiva") 
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 13.
+              span Conversión de tasa nominal vencida a efectiva
             figure.mt-3.mb-3
-              img(src="@/assets/curso/tema1/33-2.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/33-2.svg", data-aos="zoom-in", alt="Fórmula para convertir una tasa nominal vencida a efectiva, expresada como ie=(1+in1)(n1/n2)-1, junto con la definición de sus variables: tasa efectiva, tasa conocida, y periodos asociados a ambas tasas.")
             p <b>Ejemplo:</b> se tiene una tasa del 24% nominal anual mes vencido, hallar la tasa efectiva anual.
             h5 i<sub>e</sub> = (1+ 0,24/12 ) (12/1)  -1 
             h5 i<sub>e</sub> = 26,82% Efectiva Anual (EA) 
           div(numero="4" titulo="Conversión de tasa nominal anticipada a efectiva") 
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 14.
+              span Conversión de tasa nominal anticipada a tasa efectiva
             figure.mt-3.mb-3
-              img(src="@/assets/curso/tema1/33-3.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/33-3.svg", data-aos="zoom-in", alt="Fórmula para convertir una tasa nominal anticipada a efectiva, representada como ie=(1-in1)(-n1/n2)-1, acompañada de las definiciones de la tasa efectiva, tasa conocida y los periodos correspondientes a cada una.")
             p <b>Ejemplo:</b> convertir el 23% Nominal anual trimestral anticipada (NATA) a efectiva anual.
             h5 i<sub>e</sub> = (1-( 0,23/4 ) )(- 4/1)  -1 
             h5 i<sub>e</sub> = 26,72% Efectiva Anual (EA) 
           div(numero="5" titulo="Conversión de tasa nominal a otra tasa nominal") 
+            .titulo-sexto.color-acento-contenido.mb-3
             p Para convertir una tasa nominal a otra nominal, simplemente se multiplica o divide dependiendo de las condiciones. Una forma de realizar la conversión es, primero, hallar la Nominal anual, y después, dividir en el periodo al cual se quiere llegar.
             p.mb-2 Pasos:
             ol.lista-ol--cuadro.ms-4
@@ -575,9 +607,9 @@
           .col-lg
             p <b>Ejemplo 1:</b>  la siguiente tabla de amortización presenta el método francés, donde se establece la cuota fija en el periodo de pago acordado1
         .cajon.color-acento-contenido.p-4.mb-4
-          p.mb-0 La empresa Supercueros SAS, realiza un préstamo por valor de $ 12.000.000, a una tasa del 1,7% EM, por un periodo de tiempo de 6 meses.
+          p.mb-0 La empresa Supercueros SAS, realiza un préstamo por valor de $12.000.000, a una tasa del 1,7% EM, por un periodo de tiempo de 6 meses.
         .row.justify-content-center
-          .col-lg-9
+          .col-lg-12
             .titulo-sexto.color-acento-contenido
                 h5 Tabla 2.
                 span Condiciones de un préstamo con tasa mensual
@@ -590,15 +622,15 @@
                     th.bg-color-6.text-center  Frecuencia
                 tbody
                   tr.bg-color-18
-                    td.text-center PRÉSTAMO
+                    td Préstamo
                     td.text-center $12.000.000
                     td.text-center - 
                   tr.bg-color-white
-                    td.text-center TASA
-                    td.text-center 1,70%
+                    td Tasa
+                    td.text-center 1,70 %
                     td.text-center Mensual
                   tr.bg-color-18
-                    td.text-center PERIODO
+                    td Periodo
                     td.text-center 6
                     td.text-center -
 
@@ -622,57 +654,57 @@
             tbody
               tr.bg-color-white
                 td.text-center 0
-                td.text-center -
-                td.text-center -
-                td.text-center -
-                td.text-center $ 12.000.000 
+                td.text-right -
+                td.text-right -
+                td.text-right -
+                td.text-right $12.000.000 
               tr.bg-color-18
                 td.text-center 1
-                td.text-center $ 2.120.671,37
-                td.text-center $ 204.000 
-                td.text-center $ 1.916.671,37
-                td.text-center $ 10.083.329 
+                td.text-right $2.120.671,37
+                td.text-right $204.000 
+                td.text-right $1.916.671,37
+                td.text-right $10.083.329 
 
               tr.bg-color-white
                 td.text-center 2
-                td.text-center $ 2.120.671,37
-                td.text-center $ 171.417 
-                td.text-center $ 1.949.254,78
-                td.text-center $ 8.134.074 
+                td.text-right $2.120.671,37
+                td.text-right $171.417 
+                td.text-right $1.949.254,78
+                td.text-right $8.134.074 
 
               tr.bg-color-18
                 td.text-center 3
-                td.text-center $ 2.120.671,37
-                td.text-center $ 138.279  
-                td.text-center $ 1.982.392,12
-                td.text-center $ 6.151.682 
+                td.text-right $2.120.671,37
+                td.text-right $138.279  
+                td.text-right $1.982.392,12
+                td.text-right $6.151.682 
 
               tr.bg-color-white
                 td.text-center 4
-                td.text-center $ 2.120.671,37
-                td.text-center $ 104.579 
-                td.text-center $ 2.016.092,78
-                td.text-center $ 4.135.589 
+                td.text-right $2.120.671,37
+                td.text-right $104.579 
+                td.text-right $2.016.092,78
+                td.text-right $4.135.589 
  
               tr.bg-color-18
                 td.text-center 5
-                td.text-center $ 2.120.671,37
-                td.text-center $ 70.305 
-                td.text-center $ 2.050.366,36
-                td.text-center $ 2.085.223 
+                td.text-right $2.120.671,37
+                td.text-right $70.305 
+                td.text-right $2.050.366,36
+                td.text-right $2.085.223 
  
               tr.bg-color-white
                 td.text-center 6
-                td.text-center $ 2.120.671,37
-                td.text-center $ 35.449
-                td.text-center $ 2.085.222,59
-                td.text-center -
+                td.text-right $2.120.671,37
+                td.text-right $35.449
+                td.text-right $2.085.222,59
+                td.text-right $0
               tr.bg-color-18
                 td.text-center 
-                td.text-center $ 12.724.028,23
-                td.text-center $ 724.028,23
-                td.text-center $ 12.000.000,00
-                td.text-center 
+                td.text-right $12.724.028,23
+                td.text-right $724.028,23
+                td.text-right $12.000.000,00
+                td.text-right 
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
@@ -691,7 +723,7 @@
                 .row.justify-content-center.mb-3
                   .col-lg-6.mb-3.mb-lg-0
                     figure
-                      img(src="@/assets/curso/tema1/41.svg")
+                      img(src="@/assets/curso/tema1/41.svg", alt="Fórmula para calcular el valor de la cuota fija, representada como a = C₀ x [i / (1 - (1 + i)^-n)], donde a es la cuota fija, C₀ es el capital inicial, i es la tasa de interés por periodo, y n es el número total de periodos.")
                 li.d-flex 
                   .lista-ol--cuadro__vineta
                     span 2
@@ -736,7 +768,7 @@
         p <b>Ejemplo 2:</b>  Teniendo en cuenta la información del ejercicio anterior, se supone un periodo de gracia de 2 meses.
 
     .row.justify-content-center.mb-5
-      .col-lg-6.mb-3.mb-lg-0
+      .col-lg-8.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido
             h5 Tabla 4.
             span Condiciones del préstamo con período de gracia
@@ -749,19 +781,19 @@
                 th.bg-color-6.text-center  Frecuencia
             tbody
               tr.bg-color-18
-                td.text-center Préstamo
+                td Préstamo
                 td.text-center $12.000.000
                 td.text-center - 
               tr.bg-color-white
-                td.text-center Tasa
+                td Tasa
                 td.text-center 1,70%
                 td.text-center Mensual
               tr.bg-color-18
-                td.text-center Período
+                td Período
                 td.text-center 6
                 td.text-center -
               tr.bg-color-white
-                td.text-center Período De Gracia
+                td Período De Gracia
                 td.text-center 2
                 td.text-center Meses
     .row.mb-5.justify-content-center
@@ -781,58 +813,58 @@
             tbody
               tr.bg-color-white
                 td.text-center 0
-                td.text-center -
-                td.text-center -
-                td.text-center -
-                td.text-center $ 12.000.000 
+                td.text-right -
+                td.text-right -
+                td.text-right -
+                td.text-right $12.000.000 
               tr.bg-color-18
                 td.text-center 1
-                td.text-center $ 0,00
-                td.text-center $ 204.000  
-                td.text-center.bg-color-20 -$ 204.000,00
-                td.text-center $ 12.204.000 
+                td.text-right $0,00
+                td.text-right $204.000  
+                td.text-right.bg-color-20 -$204.000,00
+                td.text-right $12.204.000 
 
 
               tr.bg-color-white
                 td.text-center 2
-                td.text-center $ 0,00
-                td.text-center $ 207.468 
-                td.text-center.bg-color-20 -$ 207.468,00
-                td.text-center $ 12.411.468 
+                td.text-right $0,00
+                td.text-right $207.468 
+                td.text-right.bg-color-20 -$207.468,00
+                td.text-right $12.411.468 
  
 
               tr.bg-color-18
                 td.text-center 3
-                td.text-center $ 3.235.850,25
-                td.text-center $ 210.995  
-                td.text-center $ 3.024.855,29
-                td.text-center $ 3.024.855,29
+                td.text-right $3.235.850,25
+                td.text-right $210.995  
+                td.text-right $3.024.855,29
+                td.text-right $3.024.855,29
 
               tr.bg-color-white
                 td.text-center 4
-                td.text-center $ 3.235.850,25
-                td.text-center $ 159.572 
-                td.text-center $ 3.076.277,83
-                td.text-center $ 6.310.335  
+                td.text-right $3.235.850,25
+                td.text-right $159.572 
+                td.text-right $3.076.277,83
+                td.text-right $6.310.335  
  
               tr.bg-color-18
                 td.text-center 5
-                td.text-center $ 3.235.850,25
-                td.text-center $ 107.276 
-                td.text-center $ 3.128.574,55
-                td.text-center $ 3.181.760  
+                td.text-right $3.235.850,25
+                td.text-right $107.276 
+                td.text-right $3.128.574,55
+                td.text-right $3.181.760  
  
               tr.bg-color-white
                 td.text-center 6
-                td.text-center $ 3.235.850,25
-                td.text-center $ 54.090 
-                td.text-center $ 3.181.760,32
-                td.text-center $ 0
+                td.text-right $3.235.850,25
+                td.text-right $54.090 
+                td.text-right $3.181.760,32
+                td.text-right $0
               tr.bg-color-18
                 td.text-center.text-bold TOTAL
-                td.text-center $ 12.943.400,99
-                td.text-center $ 943.401 
-                td.text-center $ 12.000.000,00
+                td.text-right $12.943.400,99
+                td.text-right $943.401 
+                td.text-right $12.000.000,00
                 td.text-center 
 
    
@@ -866,7 +898,7 @@
         p <b>Ejemplo 3:</b>  continuamos con el ejercicio anterior, se presenta un abono a capital.
 
     .row.justify-content-center.mb-5
-      .col-lg-6.mb-3.mb-lg-0
+      .col-lg-8.mb-3.mb-lg-0
         .titulo-sexto.color-acento-contenido
             h5 Tabla 6.
             span Condiciones del préstamo con abono extraordinario en el mes 3
@@ -879,24 +911,24 @@
                 th.bg-color-6.text-center  Frecuencia
             tbody
               tr.bg-color-18
-                td.text-center.text-bold Préstamo
-                td.text-center.text-bold $12.000.000
+                td.text-bold Préstamo
+                td.text-center $12.000.000
                 td.text-center - 
               tr.bg-color-white
-                td.text-center.text-bold Tasa
-                td.text-center 1,70%
+                td.text-bold Tasa
+                td.text-center 1,70 %
                 td.text-center Mensual
               tr.bg-color-18
-                td.text-center.text-bold Período
+                td.text-bold Período
                 td.text-center 6
                 td.text-center -
               tr.bg-color-white
-                td.text-center.text-bold Abono
+                td.text-bold Abono
                 td.text-center 3
                 td.text-center Meses
               tr.bg-color-white
-                td.text-center.text-bold Valor del abono
-                td.text-center $ 2.000.000 
+                td.text-bold Valor del abono
+                td.text-center $2.000.000 
                 td.text-center 
     .row.mb-5.justify-content-center
       .col-lg-8
@@ -915,58 +947,58 @@
             tbody
               tr.bg-color-white
                 td.text-center 0
-                td.text-center -
-                td.text-center -
-                td.text-center -
-                td.text-center $ 12.000.000 
+                td.text-right -
+                td.text-right -
+                td.text-right -
+                td.text-right $12.000.000 
               tr.bg-color-18
                 td.text-center 1
-                td.text-center $ 2.120.671,37
-                td.text-center $ 204.000  
-                td.text-center $ 1.916.671,37
-                td.text-center $ 10.083.329 
+                td.text-right $2.120.671,37
+                td.text-right $204.000  
+                td.text-right $1.916.671,37
+                td.text-right $10.083.329 
 
               tr.bg-color-white
                 td.text-center 2
-                td.text-center $ 2.120.671,37
-                td.text-center $ 171.417 
-                td.text-center $ 1.949.254,78
-                td.text-center $ 8.134.074 
+                td.text-right $2.120.671,37
+                td.text-right $171.417 
+                td.text-right $1.949.254,78
+                td.text-right $8.134.074 
  
 
               tr.bg-color-18
                 td.text-center 3
-                td.text-center $ 4.120.671,37
-                td.text-center $ 138.279   
-                td.text-center $ 3.982.392,12
-                td.text-center $ 4.151.682 
+                td.text-right $4.120.671,37
+                td.text-right $138.279   
+                td.text-right $3.982.392,12
+                td.text-right $4.151.682 
 
               tr.bg-color-white
                 td.text-center 4
-                td.text-center $ 1.431.210,68
-                td.text-center $ 70.579  
-                td.text-center $ 1.360.632,09
-                td.text-center $ 2.791.050   
+                td.text-right $1.431.210,68
+                td.text-right $70.579  
+                td.text-right $1.360.632,09
+                td.text-right $2.791.050   
  
               tr.bg-color-18
                 td.text-center 5
-                td.text-center $ 1.431.210,68
-                td.text-center $ 47.448 
-                td.text-center $ 1.383.762,84
-                td.text-center $ 1.407.287   
+                td.text-right $1.431.210,68
+                td.text-right $47.448 
+                td.text-right $1.383.762,84
+                td.text-right $1.407.287   
  
               tr.bg-color-white
                 td.text-center 6
-                td.text-center $ 1.431.210,68
-                td.text-center $ 23.924 
-                td.text-center $ 1.407.286,80
-                td.text-center -
+                td.text-right $1.431.210,68
+                td.text-right $23.924 
+                td.text-right $1.407.286,80
+                td.text-right -
               tr.bg-color-18
                 td.text-center.text-bold TOTAL
-                td.text-center $ 12.655.646,15
-                td.text-center $ 655.646 
-                td.text-center $ 12.000.000,00
-                td.text-center 
+                td.text-right $12.655.646,15
+                td.text-right $655.646 
+                td.text-right $12.000.000,00
+                td.text-right 
 
    
     .row.justify-content-center
@@ -995,7 +1027,7 @@
     separador
 
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.5. Alternativas de inversión
+      h2 1.5 Alternativas de inversión
     
     
     figure.mb-5
@@ -1022,10 +1054,14 @@
                 .h5.mb-0 (Meza, 2017).
             .cajon.color-secundario.bg-color-1.p-4.mb-4
               p.mb-0 El VPN es una alternativa de inversión utilizada frecuentemente para medir el desempeño de la inversión. Para su aplicación se tiene en cuenta la siguiente fórmula:
+
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 15.   
+              span Fórmula del Valor Presente Neto (VPN)
             .row.justify-content-center.mb-3
               .col-lg-10
                 figure
-                  img(src="@/assets/curso/tema1/45-1.svg", data-aos="zoom-in")
+                  img(src="@/assets/curso/tema1/45-1.svg", data-aos="zoom-in" alt="Expresión matemática del Valor Presente Neto que incluye el desembolso inicial negativo y la suma de flujos netos de efectivo futuros descontados a una tasa de oportunidad, representados como VPN=-P+FNE1(1+TO)^1+FNE2(1+TO)^2+⋯+FNEn(1+TO)^n")
             .row
               .col-lg-6.mb-3.mb-lg-0
                 p.mb-0 P: inversión inicial
@@ -1060,19 +1096,19 @@
                         th.bg-color-6.text-center  Valor
                       tr.bg-color-18
                         td.text-center Inversión
-                        td.text-center $ 12.000.000
+                        td.text-right $12.000.000
                       tr.bg-color-white
                         td.text-center Flujo Año 1
-                        td.text-center $ 2.500.000
+                        td.text-right $2.500.000
                       tr.bg-color-18
                         td.text-center Flujo Año 2
-                        td.text-center $ 3.600.000
+                        td.text-right $3.600.000
                       tr.bg-color-white
                         td.text-center Flujo Año 3
-                        td.text-center $ 4.200.000
+                        td.text-right $4.200.000
                       tr.bg-color-18
                         td.text-center Flujo Año 4
-                        td.text-center $ 5.000.000
+                        td.text-right $5.000.000
 
             .cajon.color-acento-contenido.p-4.mb-4
               p.mb-0 <b>NOTA:</b> determinar la viabilidad del proyecto, aplicando la fórmula de VPN o VNA.
@@ -1080,7 +1116,7 @@
               .col-lg-10
                 figure
                   img(src="@/assets/curso/tema1/46-1.svg", data-aos="zoom-in")
-            h5 VPN= -$ 1.483.635,35
+            h5 VPN= -$1.483.635,35
         
         p De acuerdo con la información suministrada, se observa que el proyecto no es viable, teniendo en cuenta que se genera una pérdida, sin recuperar el dinero invertido.
 
@@ -1090,7 +1126,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-6.mb-3.mb-lg-0
               .titulo-sexto.color-acento-contenido
-                h5 Figura 5.
+                h5 Figura 16.
                 span Ventana de argumentos de la función VNA en Excel
               figure
                 img(src="@/assets/curso/tema1/47.png", data-aos="zoom-in", alt="Ventana de Excel para ingresar argumentos de la función financiera VNA, con campos para Tasa, Valor1 y Valor2. Incluye una descripción sobre el cálculo del valor neto presente de una inversión y botones para aceptar o cancelar.")
@@ -1123,10 +1159,14 @@
           .bloque-texto-d__autor 
             .h5.mb-0 (Meza, 2017).
         p La fórmula aplicable en este caso es:
+
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 17.
+          span Fórmula de la Tasa Interna de Retorno (TIR)
         .row.justify-content-center.mb-3
           .col-lg-10
             figure
-              img(src="@/assets/curso/tema1/49.svg", data-aos="zoom-in")
+              img(src="@/assets/curso/tema1/49.svg", data-aos="zoom-in" alt="Ecuación que representa la Tasa Interna de Retorno, donde la inversión inicial se iguala a la suma de los flujos netos de efectivo descontados por la TIR en distintos periodos, expresados como Inversion=FNE1(1+TIR)^1+FNE2(1+TIR)^2+⋯+FNEn(1+TIR)^n")
         p.mb-0 Interpretación:
         p.mb-0 Tasa de descuento > TIR = No es viable (pérdida)
         p.mb-0 Tasa de descuento < TIR = Es viable (Ganancia)
@@ -1159,53 +1199,53 @@
         tbody
           tr.bg-color-18
             td.text-center.text-bold Inversión
-            td.text-center.text-bold $20.000.000
-            td.text-center $4.000.000 
-            td.text-center $6.000.000 
-            td.text-center $7.200.000 
-            td.text-center $8.000.000 
-            td.text-center $9.200.000 
-            td.text-center $13.000.000 
+            td.text-right $20.000.000
+            td.text-right $4.000.000 
+            td.text-right $6.000.000 
+            td.text-right $7.200.000 
+            td.text-right $8.000.000 
+            td.text-right $9.200.000 
+            td.text-right $13.000.000 
             td.text-center.text-bold VAN  
-            td.text-center $2.738.265 
+            td.text-right $2.738.265 
 
           tr.bg-color-white
             td.text-center.text-bold Costos
             td.text-center 
-            td.text-center $800.000 
-            td.text-center $1.200.000 
-            td.text-center $1.440.000  
-            td.text-center $1.600.000  
-            td.text-center $1.840.000 
-            td.text-center $2.600.000  
+            td.text-right $800.000 
+            td.text-right $1.200.000 
+            td.text-right $1.440.000  
+            td.text-right $1.600.000  
+            td.text-right $1.840.000 
+            td.text-right $2.600.000  
             td.text-center.text-bold TIR   
             td.text-center 18 % 
           tr.bg-color-18
             td.text-center.text-bold Flujo neto del proyecto
             td.text-center -$20.000.000 
-            td.text-center $3.200.000 
-            td.text-center $4.800.000  
-            td.text-center $5.760.000   
-            td.text-center $6.400.000   
-            td.text-center $7.360.000  
-            td.text-center $10.400.000   
+            td.text-right $3.200.000 
+            td.text-right $4.800.000  
+            td.text-right $5.760.000   
+            td.text-right $6.400.000   
+            td.text-right $7.360.000  
+            td.text-right $10.400.000   
             td.text-center -   
             td.text-center -
          
           
-    .row.mb-5
-      .col-lg-4
-        .tabla-a.color-acento-botones
-          table
-            thead
-              tr
-                th.bg-color-6.text-center  VAN  
-                th.bg-color-6.text-center  $2.738.265 
+    //- .row.mb-5
+    //-   .col-lg-4
+    //-     .tabla-a.color-acento-botones
+    //-       table
+    //-         thead
+    //-           tr
+    //-             th.bg-color-6.text-center  VAN  
+    //-             th.bg-color-6.text-center  $2.738.265 
 
-            tbody
-              tr.bg-color-18
-                td.text-center.text-bold  TIR 
-                td.text-center.text-bold 18 %
+    //-         tbody
+    //-           tr.bg-color-18
+    //-             td.text-center.text-bold  TIR 
+    //-             td.text-center.text-bold 18 %
                 
     p.mb-4 Para hallar el Valor Presente Neto (VPN o VNA) y la Tasa Interna de Retorno (TIR) se realizará a través de Microsoft Excel, para ello es importante relacionar la información con el fin de desarrollar las fórmulas básicas:
 
@@ -1248,11 +1288,7 @@
       .col-lg-6.mb-3.mb-lg-0
         div.tarjeta.bg-color-8.p-4.mb-5
           .row.justify-content-center.align-items-center
-            .col-lg-6.mb-3.mb-lg-0
-              figure
-                img(src="@/assets/curso/tema1/52.svg", data-aos="zoom-in")
-              
-            .col-lg-6.mb-3.mb-lg-0
+            .col-lg-12.mb-3.mb-lg-0
               p Respuesta:
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 10.
@@ -1267,7 +1303,7 @@
                   tbody
                     tr.bg-color-white
                       td.text-center.text-bold  VAN  
-                      td.text-center.text-bold $ 2.738.264,85
+                      td.text-center.text-bold $2.738.264,85
                     tr.bg-color-18
                       td.text-center.text-bold  TIR   
                       td.text-center.text-bold 18 %

@@ -96,11 +96,11 @@
       .col-lg-10
         div.tarjeta.bg-color-16.p-4.mb-5
           .row.justify-content-center.align-items-center
-            .col-lg-6.mb-3.mb-lg-0.mb-3.mb-lg-0
+            .col-lg-4.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema2/6.svg", data-aos="zoom-in")
               
-            .col-lg-6.mb-3.mb-lg-0
+            .col-lg-8.mb-3.mb-lg-0
               h5 Medición Inicial: 11 de noviembre de 2020
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 11.
@@ -114,15 +114,15 @@
 
                   tbody
                     tr.bg-color-white
-                      td.text-center Inversión en acciones  
-                      td.text-center $ 2.500.000 
+                      td Inversión en acciones  
+                      td.text-right $ 2.500.000 
 
                     tr.bg-color-18
-                      td.text-center Más costo transacción   
-                      td.text-center $ 500.000 
+                      td Más costo transacción   
+                      td.text-right $ 500.000 
                     tr.bg-color-18
-                      td.text-center.text-bold Total Inversión   
-                      td.text-center.text-bold $ 3.000.000 
+                      td.text-bold Total Inversión   
+                      td.text-right $ 3.000.000 
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 12.
                 span Registro contable de la compra de acciones
@@ -136,28 +136,28 @@
 
                   tbody
                     tr.bg-color-white
-                      td.text-center Activos financieros (acciones)  
-                      td.text-center $ 3.000.000
+                      td Activos financieros (acciones)  
+                      td.text-right $ 3.000.000
                       td
 
                     tr.bg-color-18
-                      td.text-center Efectivo  
-                      td.text-center -
-                      td.text-center $ 3.000.000
+                      td Efectivo  
+                      td.text-right -
+                      td.text-right $ 3.000.000
                     tr.bg-color-18
-                      td.text-center.text-bold Total  
-                      td.text-center $ 3.000.000
-                      td.text-center $ 3.000.000
+                      td.text-bold Total  
+                      td.text-right $ 3.000.000
+                      td.text-right $ 3.000.000
     
     .row.mb-5.justify-content-center
       .col-lg-10
         div.tarjeta.bg-color-8.p-4.mb-5
           .row.justify-content-center.align-items-center
-            .col-lg-6.mb-3.mb-lg-0.order-lg-2.mb-3.mb-lg-0
+            .col-lg-4.mb-3.mb-lg-0.order-lg-2.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema2/7.svg", data-aos="zoom-in")
               
-            .col-lg-6.mb-3.mb-lg-0.order-lg-1.mb-3.mb-lg-0
+            .col-lg-8.mb-3.mb-lg-0.order-lg-1.mb-3.mb-lg-0
               h5 Medición posterior: 31 de diciembre de 2020
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 13.
@@ -171,17 +171,17 @@
 
                   tbody
                     tr.bg-color-white
-                      td.text-center Valor razonable 31/12/2020
-                      td.text-center $ 2.200.000 
+                      td Valor razonable 31/12/2020
+                      td.text-right $ 2.200.000 
 
 
                     tr.bg-color-18
-                      td.text-center Valor costo de adquisición 11/11/2020  
-                      td.text-center $ 2.500.000 
+                      td Valor costo de adquisición 11/11/2020  
+                      td.text-right $ 2.500.000 
 
                     tr.bg-color-18
-                      td.text-center.text-bold Valor pérdida de acciones  
-                      td.text-center.text-bold -$ 300.000 
+                      td.text-bold Valor pérdida de acciones  
+                      td.text-right -$ 300.000 
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 14.
                 span Asiento contable por desvalorización de acciones
@@ -195,18 +195,18 @@
 
                   tbody
                     tr.bg-color-white
-                      td.text-center Gasto por pérdida
-                      td.text-center $ 300.000
-                      td.text-center -
+                      td Gasto por pérdida
+                      td.text-right $ 300.000
+                      td
 
                     tr.bg-color-18
-                      td.text-center Activos financieros (acciones) 
-                      td.text-center -
-                      td.text-center $ 300.000
+                      td Activos financieros (acciones) 
+                      td.text-right -
+                      td.text-right $ 300.000
                     tr.bg-color-18
-                      td.text-center.text-bold Total  
-                      td.text-center $ 300.000
-                      td.text-center $ 300.000
+                      td.text-bold Total  
+                      td.text-right $ 300.000
+                      td.text-right $ 300.000
     
     .row.justify-content-center
       .col-lg-4.mb-3.mb-lg-0
