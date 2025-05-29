@@ -123,7 +123,7 @@ export default {
     {
       tema: 'Tema 1',
       referencia:
-        'Meza, J. J. (2017). Matemáticas financieras aplicadas (6.a ed.). Ecoe Ediciones.',
+        'Meza, J. J. (2017). Matemáticas financieras aplicadas (5.a ed.). Ecoe Ediciones.',
       tipo: 'Capítulo 1-2-3-4 y 7',
       link:
         'https://books.google.hn/books?id=rqIwDgAAQBAJ&printsec=frontcover#v=onepage&q&f=false',
@@ -151,7 +151,7 @@ export default {
     {
       termino: 'Interés simple',
       significado:
-        'Se llama interés simple aquél en el cual los intereses devengados en un período no ganan intereses en los períodos siguientes, independientemente de que se paguen o no. Únicamente sobre el capital principal se liquidan los intereses sin tener en cuenta los intereses precedentes causados.',
+        'Se llama interés simple aquel en el cual los intereses devengados en un período no ganan intereses en los períodos siguientes, independientemente de que se paguen o no. Únicamente sobre el capital principal se liquidan los intereses sin tener en cuenta los intereses precedentes causados.',
     },
     {
       termino: 'Inversión',
@@ -233,13 +233,12 @@ export default {
     {
       referencia:
         'Kozikowski, Z. (2007). Matemáticas financieras: el valor del dinero en el tiempo. McGraw-Hill Interamericana. ',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=514',
+      link: '',
     },
     {
       referencia:
         'Meza, J. J. (2017). Matemáticas financieras aplicadas (6.a ed.). Ecoe Ediciones. ',
-      link:
-        'https://www.ecoeediciones.com/wp-content/uploads/2017/06/Matematicas-Financieras-Aplicadas-6ta-Edici%C3%B3n.pdf',
+      link: '',
     },
     {
       referencia:
@@ -249,7 +248,7 @@ export default {
     {
       referencia:
         'Vidaurri, H (2017). Matemáticas Financieras. Cengage Learning. ',
-      link: 'http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=3788',
+      link: '',
     },
     {
       referencia:
