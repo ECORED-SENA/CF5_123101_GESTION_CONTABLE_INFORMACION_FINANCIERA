@@ -102,7 +102,7 @@
           .col-md-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-md
-            p <b>Ejemplo 1:</b> Carolina invierte hoy $12.000.000 en una cuenta que paga el 9% simple anual, ¿qué cantidad podrá retirar dentro de 3 años?
+            p <b>Ejemplo 1:</b> Carolina invierte hoy $12.000.000 en una cuenta que paga el 9 % simple anual, ¿qué cantidad podrá retirar dentro de 3 años?
         .bg-color-16.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") Para desarrollar el ejercicio, es importante tener en cuenta los datos suministrados; por ello, no olvide analizar la información y observar que se tiene la necesidad de hallar el valor futuro, mediante el interés simple. Recordemos que este no capitaliza como sucede en el interés compuesto.
         p La fórmula que debe usarse es:
@@ -112,7 +112,7 @@
         .row.justify-content-center.mb-3
           .col-lg-9
             figure
-              img(src="@/assets/curso/tema1/12.svg", data-aos="zoom-in", alt="Diagrama con fórmula de valor futuro usando interés simple, que incluye la expresión matemática VF=VA(1+n*i), un ejemplo numérico con valor actual de $12.000.000, tasa del 9% anual y un periodo de 3 años, y una línea de tiempo que representa el crecimiento hasta un valor futuro de $15.240.000.")
+              img(src="@/assets/curso/tema1/12.svg", data-aos="zoom-in", alt="Diagrama con fórmula de valor futuro usando interés simple, que incluye la expresión matemática VF=VA(1+n*i), un ejemplo numérico con valor actual de $12.000.000, tasa del 9 % anual y un periodo de 3 años, y una línea de tiempo que representa el crecimiento hasta un valor futuro de $15.240.000.")
         .bg-color-16.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Carolina con una inversión inicial de $12.000.000 recibirá $15.240.000, dentro de tres años aplicando interés simple.
     
@@ -125,7 +125,7 @@
           .col-md-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-md
-            p <b>Ejemplo 2:</b> Andrés recibirá en 10 meses $35.000.000, correspondientes a una inversión realizada. Si la tasa de interés que le están pagando es del 2,5% mensual, ¿cuál es el valor inicial de la inversión, aplicando el tipo de interés simple?
+            p <b>Ejemplo 2:</b> Andrés recibirá en 10 meses $35.000.000, correspondientes a una inversión realizada. Si la tasa de interés que le están pagando es del 2,5 % mensual, ¿cuál es el valor inicial de la inversión, aplicando el tipo de interés simple?
         .bg-color-1.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") De acuerdo con el análisis, se observa que se debe determinar el valor presente o actual de la inversión realizada, utilizando el tipo de interés compuesto; por lo tanto, se usará la siguiente fórmula: 
         p La fórmula que debe usarse es:
@@ -135,9 +135,9 @@
         .row.justify-content-center.mb-3
           .col-lg-9
             figure
-              img(src="@/assets/curso/tema1/15.svg", data-aos="zoom-in", alt="Fórmula para calcular el valor actual con interés simple, representada como VA=VF/(1+i*n), acompañada de un ejemplo con un valor futuro de $35.000.000, tasa de interés del 2,5% y plazo de 10 años, que da como resultado un valor actual de $28.000.000.")
+              img(src="@/assets/curso/tema1/15.svg", data-aos="zoom-in", alt="Fórmula para calcular el valor actual con interés simple, representada como VA=VF/(1+i*n), acompañada de un ejemplo con un valor futuro de $35.000.000, tasa de interés del 2,5 % y plazo de 10 años, que da como resultado un valor actual de $28.000.000.")
         .bg-color-1.p-4.tarjeta.mb-3(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Respuesta: Para obtener un monto de $35.000.000 durante 10 meses a la tasa del 2,5% de invertir $28.000.000. 
+          p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Respuesta: Para obtener un monto de $35.000.000 durante 10 meses a la tasa del 2,5 % de invertir $28.000.000. 
   
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -155,17 +155,17 @@
           .col-md-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-md
-            p <b>Ejemplo 1:</b> Carolina invierte hoy $12.000.000 en una cuenta que paga el 9% compuesto anual, ¿qué cantidad podrá retirar dentro de 3 años?
+            p <b>Ejemplo 1:</b> Carolina invierte hoy $12.000.000 en una cuenta que paga el 9 % compuesto anual, ¿qué cantidad podrá retirar dentro de 3 años?
         .bg-color-8.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") El enunciado anterior refleja la necesidad de hallar el valor futuro, teniendo en cuenta que se conoce el valor inicial de la inversión y se desea saber el valor final dentro de 3 años. Recuerde que la tasa de interés se manejará en decimales para efectos de su cálculo.
-
+        p.mb-4 La fórmula que debe usarse es:
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 3.
           span Cálculo del valor futuro con interés compuesto
         .row.justify-content-center.mb-3
           .col-lg-9
             figure
-              img(src="@/assets/curso/tema1/16.svg", data-aos="zoom-in", alt="Diagrama con fórmula de valor futuro usando interés compuesto, representada como VF=VA(1+i)n, con un ejemplo que parte de $12.000.000, una tasa del 9% anual y un periodo de 3 años, resultando en un valor futuro de $15.540.348, ilustrado con línea de tiempo.")
+              img(src="@/assets/curso/tema1/16.svg", data-aos="zoom-in", alt="Diagrama con fórmula de valor futuro usando interés compuesto, representada como VF=VA(1+i)n, con un ejemplo que parte de $12.000.000, una tasa del 9 % anual y un periodo de 3 años, resultando en un valor futuro de $15.540.348, ilustrado con línea de tiempo.")
         .bg-color-8.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") <b>Respuesta:</b> Carolina con una inversión inicial de $12.000.000 recibirá $15.540.348, dentro de tres años aplicando interés compuesto.
 
@@ -176,7 +176,7 @@
         .col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
           .titulo-sexto.color-acento-contenido
             h5 Figura 4.
-            span Cálculo del valor futuro (VF) en función financiera de Exce
+            span Cálculo del valor futuro (VF) en función financiera de Excel
           figure
             img(src="@/assets/curso/tema1/18.png", data-aos="zoom-in", alt=" Ventana de argumentos de función en Excel para calcular el valor futuro (VF) de una inversión, con campos para ingresar tasa de interés, número de periodos (Nper), pago periódico, valor actual (Va) y tipo de vencimiento. Incluye una breve descripción de cada parámetro.")
           
@@ -209,7 +209,7 @@
           .col-md-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-md
-            p <b>Ejemplo 2:</b> Andrés recibirá en 10 meses $35.000.000, correspondientes a una inversión realizada. Si la tasa de interés que le están pagando es del 2,5% mensual, ¿cuál es el valor inicial de la inversión, aplicando el tipo de interés compuesto? 
+            p <b>Ejemplo 2:</b> Andrés recibirá en 10 meses $35.000.000, correspondientes a una inversión realizada. Si la tasa de interés que le están pagando es del 2,5 % mensual, ¿cuál es el valor inicial de la inversión, aplicando el tipo de interés compuesto? 
         .bg-color-1.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") De acuerdo con el análisis, se observa que se debe determinar el valor presente o actual de la inversión realizada, utilizando el tipo de interés compuesto; por lo tanto, se usará la siguiente fórmula: 
         .titulo-sexto.color-acento-contenido.mb-3
@@ -218,9 +218,9 @@
         .row.justify-content-center.mb-3
           .col-lg-9
             figure
-              img(src="@/assets/curso/tema1/19.svg", data-aos="zoom-in", alt="Fórmula del valor actual bajo interés compuesto representada como VA=VF/(1+i)^n,  aplicada a un valor futuro de $35.000.000 con una tasa del 2,5% durante 10 años, obteniendo un valor actual de $27.341.944,06.")
+              img(src="@/assets/curso/tema1/19.svg", data-aos="zoom-in", alt="Fórmula del valor actual bajo interés compuesto representada como VA=VF/(1+i)^n,  aplicada a un valor futuro de $35.000.000 con una tasa del 2,5 % durante 10 años, obteniendo un valor actual de $27.341.944,06.")
         .bg-color-1.p-4.tarjeta.mb-3(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") <b>Respuesta:</b>  para obtener un monto de $35.000.000 durante 10 meses, a la tasa del 2,5%, debe invertir $27.341.944,06. 
+          p.mb-0(data-aos="fade-left") <b>Respuesta:</b>  para obtener un monto de $35.000.000 durante 10 meses, a la tasa del 2,5 %, debe invertir $27.341.944,06. 
     
     p.mb-4(data-aos="fade-down") También se puede obtener el Valor Actual (VA), utilizando la fórmula financiera de Excel llamada VA, la cual se presenta a continuación:
 
@@ -261,7 +261,7 @@
           .col-md-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-md
-            p <b>Ejemplo 3:</b> María realiza una inversión por valor de $750.000, por un periodo de 3 años. Al finalizar el tiempo le entregan $868.219. ¿Cuál es la tasa de interés compuesto aplicada? Una vez despejada la fórmula principal, se utilizará la siguiente: 
+            p <b>Ejemplo 3:</b> María realiza una inversión por valor de $750.000, por un periodo de 3 años. Al finalizar el tiempo le entregan $868.219. ¿Cuál es la tasa de interés compuesto aplicada? Una vez despejada la fórmula principal, se utilizará la siguiente fórmula: 
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 7.
           span Fórmula, solución analítica ejemplo 3
@@ -270,7 +270,7 @@
             figure
               img(src="@/assets/curso/tema1/22.svg", data-aos="zoom-in", alt="Fórmula de la tasa de interés compuesta aplicada en el ejemplo 3, representada como i = (868.219 / 750.000)^(1 / 3) - 1, donde 868.219 es el valor final recibido, 750.000 el valor invertido inicialmente, y 3 el número de años de la inversión.")
         .bg-color-10.p-4.tarjeta.mb-3(data-aos="fade-left")
-          p.mb-0(data-aos="fade-left") <b>Respuesta:</b>  la tasa aplicada en la inversión es del 5% anual.
+          p.mb-0(data-aos="fade-left") <b>Respuesta:</b>  la tasa aplicada en la inversión es del 5 % anual.
     
     div.tarjeta.bg-color-10.p-4.mb-5
       .row.justify-content-center.align-items-center
@@ -309,14 +309,14 @@
           .col-md-auto.mb-3.mb-lg-0
             img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
           .col-md
-            p <b>Ejemplo 4:</b> Sofía realiza un préstamo de $2.000.000, al final del período paga $3.443.143, la tasa cobrada es del 2,5% mensual. Hallar el tiempo del préstamo.  Teniendo en cuenta la fórmula principal, se realiza el proceso para despejarla; por ende, se utilizará la siguiente:
+            p <b>Ejemplo 4:</b> Sofía realiza un préstamo de $2.000.000, al final del período paga $3.443.143, la tasa cobrada es del 2,5 % mensual. Hallar el tiempo del préstamo.  Teniendo en cuenta la fórmula principal, se realiza el proceso para despejarla; por ende, se utilizará la siguiente fórmula:
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 9.
           span Cálculo del tiempo en operaciones financieras con logaritmos
         .row.justify-content-center.mb-3
           .col-lg-9
             figure
-              img(src="@/assets/curso/tema1/25.svg", data-aos="zoom-in", alt="Ejemplo resuelto que muestra cómo calcular el tiempo de un préstamo usando logaritmos, con fórmula despejada n=log(VF/VA)log(1+i) valores aplicados a un préstamo de $2.000.000 con tasa del 2,5% mensual y valor futuro de $3.443.143, resultando en un plazo de 22 meses.")
+              img(src="@/assets/curso/tema1/25.svg", data-aos="zoom-in", alt="Ejemplo resuelto que muestra cómo calcular el tiempo de un préstamo usando logaritmos, con fórmula despejada n=log(VF/VA)log(1+i) valores aplicados a un préstamo de $2.000.000 con tasa del 2,5 % mensual y valor futuro de $3.443.143, resultando en un plazo de 22 meses.")
         .bg-color-16.p-4.tarjeta.mb-3(data-aos="fade-left")
           p.mb-0(data-aos="fade-left") <b>Respuesta:</b>  el tiempo del préstamo es de 22 meses.
 
@@ -469,36 +469,36 @@
               span Conversión de tasa efectiva entre periodos distintos
             figure.mt-3.mb-3
               img(src="@/assets/curso/tema1/33.svg", data-aos="zoom-in", alt="Fórmula para convertir una tasa efectiva entre distintos periodos, expresada como ie=((1+i)(n1/n2)-1), acompañada de la definición de variables: tasa efectiva deseada, tasa conocida, y periodos correspondientes de ambas tasas.")
-            p <b>Ejemplo:</b> convertir el 8% Efectivo Mensual (EF) a Efectivo Semestral (ES).
+            p <b>Ejemplo:</b> convertir el 8 % Efectivo Mensual (EF) a Efectivo Semestral (ES).
             h5 i<sub>e</sub> = ((1+0,08) (12/2)) – 1
-            h5 i<sub>e</sub> = 58, 69% Efectivo semestral (ES)
+            h5 i<sub>e</sub> = 58, 69 % Efectivo semestral (ES)
           div(numero="2" titulo="Conversión de tasa efectiva a tasa nominal") 
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 12.
               span Conversión de tasa efectiva a nominal
             figure.mt-3.mb-3
               img(src="@/assets/curso/tema1/33-1.svg", data-aos="zoom-in", alt="Fórmula de conversión de tasa efectiva a nominal, representada como j = ((1 + iₑ)^(n1 / n2) - 1) x n, donde j es la tasa nominal, iₑ es la tasa efectiva conocida, n1 es el periodo de la tasa conocida, n2 el periodo al que se quiere convertir, y n el número de periodos en el año.")
-            p <b>Ejemplo:</b> se tiene una tasa del 24% Efectiva Anual (EA), realizar la conversión a nominal mensual equivalente.
+            p <b>Ejemplo:</b> se tiene una tasa del 24 % Efectiva Anual (EA), realizar la conversión a nominal mensual equivalente.
             h5 j = ((1+ 0,24 ) (1/12)   -1 ) * 12
-            h5 j = 21,71% Nominal Mensual (NM)
+            h5 j = 21,71 % Nominal Mensual (NM)
           div(numero="3" titulo="Conversión de tasa nominal vencida a tasa efectiva") 
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 13.
               span Conversión de tasa nominal vencida a efectiva
             figure.mt-3.mb-3
               img(src="@/assets/curso/tema1/33-2.svg", data-aos="zoom-in", alt="Fórmula para convertir una tasa nominal vencida a efectiva, expresada como ie=(1+in1)(n1/n2)-1, junto con la definición de sus variables: tasa efectiva, tasa conocida, y periodos asociados a ambas tasas.")
-            p <b>Ejemplo:</b> se tiene una tasa del 24% nominal anual mes vencido, hallar la tasa efectiva anual.
+            p <b>Ejemplo:</b> se tiene una tasa del 24 % nominal anual mes vencido, hallar la tasa efectiva anual.
             h5 i<sub>e</sub> = (1+ 0,24/12 ) (12/1)  -1 
-            h5 i<sub>e</sub> = 26,82% Efectiva Anual (EA) 
+            h5 i<sub>e</sub> = 26,82 % Efectiva Anual (EA) 
           div(numero="4" titulo="Conversión de tasa nominal anticipada a efectiva") 
             .titulo-sexto.color-acento-contenido.mb-3
               h5 Figura 14.
               span Conversión de tasa nominal anticipada a tasa efectiva
             figure.mt-3.mb-3
               img(src="@/assets/curso/tema1/33-3.svg", data-aos="zoom-in", alt="Fórmula para convertir una tasa nominal anticipada a efectiva, representada como ie=(1-in1)(-n1/n2)-1, acompañada de las definiciones de la tasa efectiva, tasa conocida y los periodos correspondientes a cada una.")
-            p <b>Ejemplo:</b> convertir el 23% Nominal anual trimestral anticipada (NATA) a efectiva anual.
+            p <b>Ejemplo:</b> convertir el 23 % Nominal anual trimestral anticipada (NATA) a efectiva anual.
             h5 i<sub>e</sub> = (1-( 0,23/4 ) )(- 4/1)  -1 
-            h5 i<sub>e</sub> = 26,72% Efectiva Anual (EA) 
+            h5 i<sub>e</sub> = 26,72 % Efectiva Anual (EA) 
           div(numero="5" titulo="Conversión de tasa nominal a otra tasa nominal") 
             .titulo-sexto.color-acento-contenido.mb-3
             p Para convertir una tasa nominal a otra nominal, simplemente se multiplica o divide dependiendo de las condiciones. Una forma de realizar la conversión es, primero, hallar la nominal anual, y después, dividir en el periodo al cual se quiere llegar.
@@ -512,9 +512,9 @@
                 .lista-ol--cuadro__vineta
                   span 2
                 | Luego, hallar el periodo buscado.
-            p <b>Ejemplo:</b> se tiene una tasa 12% Nominal Trimestral (NT), se solicita hallar la tasa Nominal Anual (NA).
+            p <b>Ejemplo:</b> se tiene una tasa 12 % Nominal Trimestral (NT), se solicita hallar la tasa Nominal Anual (NA).
             h5.ms-3.mb-0 n = 12 * 4
-            h5.ms-3 n = 48% Nominal Anual (NA)
+            h5.ms-3 n = 48 % Nominal Anual (NA)
             p.mb-0 Se multiplica por cuatro (4), teniendo en cuenta que son los trimestres de un año.
       .col-lg-4.order-2(data-aos="fade-left")
         figure
@@ -684,7 +684,7 @@
                 td.text-right $12.724.028,23
                 td.text-right $724.028,23
                 td.text-right $12.000.000,00
-                td.text-right 
+                td.text-right -
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
@@ -766,7 +766,7 @@
                 td.text-center - 
               tr.bg-color-white
                 td Tasa
-                td.text-center 1,70%
+                td.text-center 1,70 %
                 td.text-center Mensual
               tr.bg-color-18
                 td Período
@@ -845,7 +845,7 @@
                 td.text-right $12.943.400,99
                 td.text-right $943.401 
                 td.text-right $12.000.000,00
-                td.text-center 
+                td.text-right -
 
    
     .row.justify-content-center.mb-5
@@ -909,7 +909,7 @@
               tr.bg-color-white
                 td.text-bold Valor del abono
                 td.text-center $2.000.000 
-                td.text-center 
+                td.text-center -
     .row.mb-5.justify-content-center
       .col-lg-8(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido
@@ -1061,7 +1061,7 @@
               .col-md-auto.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema1/11.svg", style="max-width: 90px").mx-auto
               .col-md
-                p <b>Ejemplo:</b>  se desea realizar una inversión de $12.000.000, durante 4 años, a una tasa de descuento del 15% anual. Los beneficios (flujos) recibidos por cada año son los siguientes:
+                p <b>Ejemplo:</b>  se desea realizar una inversión de $12.000.000, durante 4 años, a una tasa de descuento del 15 % anual. Los beneficios (flujos) recibidos por cada año son los siguientes:
             .row.justify-content-center.mb-3
               .col-lg-9
                 .titulo-sexto.color-acento-contenido
@@ -1193,7 +1193,7 @@
 
           tr.bg-color-white
             td.text-center.text-bold Costos
-            td.text-center 
+            td.text-right -
             td.text-right $800.000 
             td.text-right $1.200.000 
             td.text-right $1.440.000  
@@ -1211,8 +1211,8 @@
             td.text-right $6.400.000   
             td.text-right $7.360.000  
             td.text-right $10.400.000   
-            td.text-center -   
-            td.text-center -
+            td.text-right -   
+            td.text-right -
                 
     p.mb-4(data-aos="fade-down") Para hallar el Valor Presente Neto (VPN o VNA) y la Tasa Interna de Retorno (TIR) se realizará a través de Microsoft Excel, para ello es importante relacionar la información con el fin de desarrollar las fórmulas básicas:
 
@@ -1272,7 +1272,7 @@
                       td.text-center.text-bold  TIR   
                       td.text-center.text-bold 18 %
       .col-lg-6(data-aos="fade-left")
-        P.mb-4 De acuerdo con lo anterior, se observa que el proyecto es viable, teniendo en cuenta que se recupera la inversión, además de generar una ganancia.  La TIR (184%) es mayor que la tasa de descuento (14%).
+        P.mb-4 De acuerdo con lo anterior, se observa que el proyecto es viable, teniendo en cuenta que se recupera la inversión, además de generar una ganancia. La TIR (18 %) es mayor que la tasa de descuento (14 %).
         P Para ampliar esta información, usted deberá ingresar a la biblioteca del Servicio Nacional de Aprendizaje (SENA), donde encuentra libros de apoyo.
 
 </template>
