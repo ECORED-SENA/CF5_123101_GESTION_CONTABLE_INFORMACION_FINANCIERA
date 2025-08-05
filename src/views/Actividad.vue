@@ -20,10 +20,10 @@ export default {
       tema: 'Fundamentos de matemática financiera',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar los conceptos clave de las matemáticas financieras, incluyendo interés simple y compuesto, tipos de tasas, tablas de amortización, VPN, TIR y la NIIF 13 en la medición del valor razonable.',
+        '<b> Objetivo:</b> identificar los conceptos clave de las matemáticas financieras, incluyendo interés simple y compuesto, tipos de tasas, tablas de amortización, VPN, TIR y la NIIF 13 en la medición del valor razonable.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
@@ -59,7 +59,7 @@ export default {
         {
           id: 2,
           texto: '¿Cuál es la característica principal del interés compuesto?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -92,7 +92,7 @@ export default {
           id: 3,
           texto:
             '¿Cuál fórmula se usa para calcular el valor futuro con interés simple?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -122,7 +122,7 @@ export default {
         {
           id: 4,
           texto: '¿Qué tasa se asemeja al interés simple porque no capitaliza?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -152,7 +152,7 @@ export default {
         {
           id: 5,
           texto: '¿Cuál es el significado de tasa efectiva?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -213,7 +213,7 @@ export default {
         {
           id: 7,
           texto: '¿Qué representa el Valor Presente Neto (VPN)?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -244,7 +244,7 @@ export default {
         {
           id: 8,
           texto: '¿Qué indica un VPN menor a cero?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -274,7 +274,7 @@ export default {
         {
           id: 9,
           texto: '¿Cuál es la función de la Tasa Interna de Retorno (TIR)?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -306,7 +306,7 @@ export default {
           id: 10,
           texto:
             '¿Qué concepto define la NIIF 13 como una medición basada en el mercado?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -357,7 +357,7 @@ export default {
           id: 12,
           texto:
             'La fórmula para hallar el tiempo en una operación de interés compuesto incluye logaritmos.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -378,7 +378,7 @@ export default {
           id: 13,
           texto:
             'La NIIF 13 se aplica solo a activos financieros y excluye los pasivos.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -399,7 +399,7 @@ export default {
           id: 14,
           texto:
             'El método francés en tablas de amortización se caracteriza por tener cuotas variables.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -420,7 +420,7 @@ export default {
           id: 15,
           texto:
             'Una inversión con una TIR menor que la tasa de descuento no es viable.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
